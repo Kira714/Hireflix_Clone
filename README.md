@@ -19,14 +19,6 @@
 
 Hireflix is a comprehensive **one-way video interview platform** that revolutionizes the hiring process. It enables companies to create structured interviews with multiple question types and allows candidates to submit responses at their convenience, including **real-time video recordings**.
 
-### 🎯 **Perfect For:**
-- **HR Teams** conducting initial screening interviews
-- **Remote Companies** hiring globally distributed talent  
-- **Educational Institutions** for admissions interviews
-- **Recruitment Agencies** streamlining candidate evaluation
-
----
-
 ## ✨ **Core Features**
 
 ### 🔐 **Advanced Authentication System**
@@ -117,9 +109,6 @@ Hireflix is a comprehensive **one-way video interview platform** that revolution
 ### **Modern Design System:**
 - **Tailwind CSS**: Utility-first CSS framework
 - **Responsive Layout**: Mobile-first design approach
-- **Dark/Light Themes**: Consistent color schemes
-- **Font Awesome Icons**: Professional iconography
-- **Smooth Animations**: CSS transitions and hover effects
 
 ### **Interactive Elements:**
 - **Card-based Layout**: Clean, organized content presentation
@@ -363,16 +352,6 @@ docker-compose exec app php artisan db:seed
 
 # Create new migration
 docker-compose exec app php artisan make:migration add_custom_field
-```
-
-### **Customization Options**
-- **Styling**: Modify Tailwind CSS classes
-- **Question Types**: Add new response formats
-- **Scoring System**: Implement custom scoring logic
-- **Email Templates**: Customize notification emails
-- **Dashboard Widgets**: Add analytics and reporting
-
----
 
 ## 📊 **Performance & Scalability**
 
@@ -451,89 +430,4 @@ docker-compose ps
 ```
 
 ---
-
-## 🚀 **Production Deployment**
-
-### **Production Checklist**
-- [ ] **SSL Certificate**: HTTPS configuration
-- [ ] **Environment Variables**: Secure .env setup
-- [ ] **Database Backup**: Automated backup system
-- [ ] **Monitoring**: Application performance tracking
-- [ ] **Logging**: Centralized log management
-- [ ] **Security**: Firewall and access controls
-
-### **Deployment Options**
-- **Cloud Platforms**: AWS, Google Cloud, Azure
-- **VPS Hosting**: DigitalOcean, Linode, Vultr
-- **Container Orchestration**: Kubernetes, Docker Swarm
-- **CI/CD Pipeline**: GitHub Actions, GitLab CI
-
----
-
-## 📈 **Analytics & Reporting**
-
-### **Built-in Metrics**
-- **Interview Completion Rates**: Track candidate engagement
-- **Response Time Analytics**: Monitor completion duration
-- **Question Performance**: Identify effective questions
-- **Scoring Distribution**: Analyze candidate performance
-- **User Activity**: Track system usage patterns
-
-### **Export Capabilities**
-- **CSV Reports**: Submission data export
-- **PDF Generation**: Interview summaries
-- **API Endpoints**: Custom integrations
-- **Database Queries**: Direct data access
-
----
-
-## 🤝 **Contributing & Support**
-
-### **Development Contribution**
-1. **Fork Repository**: Create your own copy
-2. **Feature Branch**: `git checkout -b feature/amazing-feature`
-3. **Commit Changes**: `git commit -m 'Add amazing feature'`
-4. **Push Branch**: `git push origin feature/amazing-feature`
-5. **Pull Request**: Submit for review
-
-### **Bug Reports**
-- **GitHub Issues**: Detailed bug reports
-- **Error Logs**: Include relevant log files
-- **Environment Info**: System specifications
-- **Reproduction Steps**: Clear instructions
-
-### **Feature Requests**
-- **Use Case Description**: Explain the need
-- **Implementation Ideas**: Suggest approaches
-- **Priority Level**: Indicate importance
-- **User Impact**: Describe benefits
-
----
-
-## 📄 **License & Legal**
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-### **Third-party Licenses**
-- **Laravel Framework**: MIT License
-- **Tailwind CSS**: MIT License
-- **Font Awesome**: Font Awesome Free License
-- **Docker**: Apache License 2.0
-
----
-
-<div align="center">
-
-## 🎬 **Ready to Transform Your Hiring Process?**
-
-**Start conducting professional video interviews today!**
-
-[![Get Started](https://img.shields.io/badge/Get%20Started-Now-success?style=for-the-badge&logo=rocket)](http://localhost:8000)
-[![Documentation](https://img.shields.io/badge/Read%20Docs-Here-blue?style=for-the-badge&logo=book)](README.md)
-[![Support](https://img.shields.io/badge/Get%20Support-Help-orange?style=for-the-badge&logo=question-circle)](mailto:support@hireflix.com)
-
----
-
-**Made with ❤️ for modern hiring teams**
-
-</div>
+Made by Sachit
